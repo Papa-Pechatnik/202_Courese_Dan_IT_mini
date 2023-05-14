@@ -1,0 +1,163 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  cursor: default;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 63px;
+  padding-bottom: 48px;
+}
+
+.logo {
+  font-size: 5rem;
+  line-height: 117.5%;
+  color: black;
+  padding-bottom: 40px;
+}
+
+.logo span {
+  color: #4bcaff;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: #35444f;
+}
+
+.menu-item {
+  font-size: 1.5rem;
+  line-height: 117.5%;
+
+  padding-top: 24px;
+  padding-bottom: 18px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  border-left: 0.5px solid white;
+  border-right: 0.5px solid white;
+}
+
+.menu-item a {
+  color: white;
+}
+
+.menu-item:hover,
+.menu-active {
+  background-color: #222f3a;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 52px;
+}
+
+.aside-list {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 344px;
+  border: 1px solid black;
+}
+
+.aside-list a {
+  font-size: 1.6875rem;
+  line-height: 100%;
+
+  color: inherit;
+}
+
+.aside-list-item {
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 42px;
+  color: #495863;
+}
+
+.aside-list-item:hover,
+.aside-list-active {
+  background-color: #dbdbdb;
+
+  transition: padding-left 0.5s;
+  padding-left: 70px;
+  color: black;
+}
+
+.article-ramda {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-ramda-img {
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.article-ramda-img img {
+  width: 320px;
+  padding-top: 75px;
+  padding-bottom: 73px;
+}
+
+.article-ramda-img img:hover {
+  transition: scale 0.5s;
+  scale: 1.1;
+}
+
+.article-ramda-text {
+  font-size: 1.125rem;
+  line-height: 133%; /* or 24px*/
+  color: #2c2c2c;
+
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+
+  background-color: rgba(99, 105, 110, 0.48);
+  padding: 20px 40px;
+  margin-top: 34px;
+  margin-bottom: 20px;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-list-item a {
+  font-size: 1.75rem;
+  line-height: 100%;
+  padding-bottom: 12px;
+  color: #0c1927;
+}
+
+.footer-list-item :hover,
+.footer-list-active a {
+  color: #3181a6;
+  border-bottom: 1px solid #3181a6;
+}
+
+.footer-copyright {
+  font-size: 1.5rem;
+  line-height: 100%;
+  color: #010101;
+}
